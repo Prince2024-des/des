@@ -243,14 +243,14 @@ ul li a{
 
  #support #card-3{
     background-color: #FFFFFF;
-    width:100%;
-    margin: 2rem;
-    /* margin: 0 auto; */
+    width:112%;
+    margin: 5rem;
     border-radius: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    position: relative;
+    left: -2.5rem;
+    /* right: 10px; */
 }
 
     #support #card-3 .card-3  img{
@@ -314,24 +314,21 @@ ul li a{
 #card-4{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     background-color: #252525;
     flex-direction: column;
-    /* padding: 10px; */
-    width: 90%;
-    position: relative;
-    left: 3rem;
-    /* height: 20rem; */
-    margin: 20px;
+    margin-bottom: 5rem;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 0.5rem;
 }
 
 #card-4 .article{
     display: flex;
     align-content: center;
     /* justify-content: center; */
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
     
     
 }
@@ -366,13 +363,13 @@ ul li a{
     display: flex;
     align-content: center;
     margin-bottom: 5px;
-    /* padding: 0; */
-    /* border: 1px solid #FFB800; */
+    margin-bottom: 1rem;
+    
 }
 
 
 #card-4 .list .child ul li{
-    border: 1px solid #FFB800;
+    border: 2px solid #FFB800;
     margin: 4px;
     border-radius: 25px;
     padding: 0 20px 0 20px;
@@ -382,9 +379,9 @@ ul li a{
 }
 
 #card-4 .list .child ul li a{
-    font-size: 7px;
-    font-weight: 700;
-    /* padding: 0; */
+    font-size: 8px;
+    font-weight: 800;
+    
 }
 
 #card-4 .list .child ul li a:hover{
@@ -408,7 +405,7 @@ ul li a{
 
 
 #card-4 .children ul li{
-    border: 1px solid #FFB800;
+    border: 2px solid #FFB800;
     margin: 10px;
     border-radius: 20px;
     padding: 0 10px 0 10px;
